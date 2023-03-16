@@ -7,7 +7,6 @@ dataBase = mysql.connector.connect(
     port = 3306,
     auth_plugin='mysql_native_password'
 
-
 )
 
 # prepare cursor object
